@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical"
+        tools:ignore="PrivateResource"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/access_token"
+            android:textStyle="bold"
+            android:textSize="@dimen/authorization_text_size"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin">
+
+            <TextView
+                android:id="@+id/access_token_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/info_text_size"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/close_session_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:paddingStart="@dimen/horizontal_padding"
+            android:paddingEnd="@dimen/horizontal_padding"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/close_session"/>
+
+    </LinearLayout>
+</layout>

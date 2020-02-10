@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Authorization</string>
+    <string name="wait_authorization">Авторизовываемся…</string>
+    <string name="domain_crm_hint">example.retailcrm.ru</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="address_crm">Адрес CRM аккаунта</string>
+    <string name="input_login">Введите логин</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="enter">Войти</string>
+    <string name="try_again">Попробовать снова</string>
+    <string name="access_token">Access Token:</string>
+    <string name="close_session">Завершить сессию</string>
+    <string name="unknown_authorize_error">Непредвиденная ошибка авторизации</string>
+    <string name="server_unavailable">Сервер недоступен</string>
+    <string name="unknown_error">Произошла ошибка</string>
+    <string name="set_correct_address">Укажите корректный адрес</string>
+    <string name="set_correct_email">Укажите корректный email</string>
+    <string name="default_password">android.developer</string>
+    <string name="default_login">android.developer@retailcrm.ru</string>
+    <string name="default_domain">android-test.retailcrm.ru</string>
+
+
+</resources>
